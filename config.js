@@ -10,16 +10,20 @@ module.exports = {
   // googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Home',
-      path: '/'
-    },
-    {
       label: 'Articles',
-      path: '/pages/'
+      path: '/'
     },
     {
       label: 'About me',
       path: '/pages/about'
+    },
+    {
+      label: 'Contact me',
+      path: '/pages/contacts'
+    },
+    {
+      label: 'Another thing',
+      path: '/another-thing'
     },
   ],
   author: {
@@ -30,7 +34,8 @@ module.exports = {
       email: 'stevenwyoon@gmail.com',
       // telegram: '#',
       // twitter: '#',
-      github: 'https://github.com/stevenyoon',
+      github: 'stevenyoon',
+      linkedin: 'swyoon'
       // rss: '#',
       // vkontakte: '#'
     }

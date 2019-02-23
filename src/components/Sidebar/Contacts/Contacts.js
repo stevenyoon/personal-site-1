@@ -12,7 +12,7 @@ const Contacts = ({ contacts }) => (
             className={styles['contacts__list-item-link']}
             href={getContactHref(name, contacts[name])}
             rel="noopener noreferrer"
-            target="_blank"
+            target={name === 'email' ? "" : "_blank"}
           >
             <Icon icon={getIcon(name)} />
           </a>
